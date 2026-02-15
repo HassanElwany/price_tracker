@@ -1,0 +1,19 @@
+# Price Tracker Dependencies
+# ============================
+
+# Web scraping and browser automation
+# Selenium is used to automate Chrome and click links, handle JavaScript, etc.
+selenium>=4.0.0
+
+# Optional: For data analysis (commented out - uncomment if you need it)
+# pandas>=1.3.0  # For analyzing scraped data
+# openpyxl>=3.6.0  # For Excel export
+
+# Optional: For better console output (commented out - uncomment if you need it)
+# colorama>=0.4.4  # For colored console output
+# tabulate>=0.8.9  # For pretty-printed tables
+
+# Development/Testing (commented out - uncomment if you want to develop further)
+# pytest>=7.0.0  # For unit testing
+# black>=22.0.0  # For code formatting
+# pylint>=2.12.0  # For code analysis
